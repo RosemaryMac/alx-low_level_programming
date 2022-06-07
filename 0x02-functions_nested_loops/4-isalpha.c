@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isaplha - Check standard library
+ * _isaplha - check main
  * @c: An input character
  * Description: function returns 1 if the character is a
  * letter, lowercase or uppercase.
