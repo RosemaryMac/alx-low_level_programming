@@ -1,7 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 /**
- *_abs - Check standard library
+ *_abs - Check main
  *@r: An integer input
  * Description: This function returns absolute value of a number
  * Return: Absolut value of number r
