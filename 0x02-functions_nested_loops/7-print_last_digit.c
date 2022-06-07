@@ -1,7 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 /**
- * print_last_digit - Check standard library
+ * print_last_digit - Check main
  * @r: An integer input
  * Description: This function prints the last digit of a number
  * Return: last digit of a number r
