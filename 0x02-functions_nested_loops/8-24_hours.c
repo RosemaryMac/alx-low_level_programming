@@ -1,7 +1,6 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include "main.h"
 /**
- * jack_bauer - Check standard library
+ * jack_bauer - Check main
  * Description: function prints every minute in one day
  * Return: Nothing
  */
