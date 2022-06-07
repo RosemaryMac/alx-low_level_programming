@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _isaplha - check main
+ * _isaplha - check Holberton
  * @c: An input character
  * Description: function returns 1 if the character is a
  * letter, lowercase or uppercase.
