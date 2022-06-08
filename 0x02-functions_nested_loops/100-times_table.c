@@ -21,7 +21,7 @@ _putchar('\n');
 }
 /**
  * putformat - formatted characters to output
- *@n: number to format
+ * @n: number to format
  * Return: nothing
  */
 void putformat(int n)
