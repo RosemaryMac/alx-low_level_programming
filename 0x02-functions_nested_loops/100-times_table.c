@@ -3,7 +3,7 @@
 /**
  * print_times_table - prints times table for numbers from 0-14
  * @n: An input integer value
- * Return: Nothing
+ * Return: Always 0
  */
 void print_times_table(int n)
 {
@@ -18,7 +18,7 @@ for (j = 1; j <= n; j++)
 r = j * i;
 _putchar(44);
 _putchar(32);
-if (r > 9)
+if (r <= 9)
 {
 _putchar(32);
 _putchar(32);
@@ -32,7 +32,7 @@ _putchar((j % 10) + 48);
 }
 else
 {
-_putchar(((j / 10) % 10) + 48);
+_putchar(((j / 100) % 10) + 48);
 _putchar(((j / 10) % 10) + 48);
 _putchar((j % 10) + 48);
 }
