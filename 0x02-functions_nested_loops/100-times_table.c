@@ -1,9 +1,7 @@
 #include "main.h"
+
 /**
- * print_times_table - check main
- *
- * print_times_table - Prints the times table of the input,
- *                     starting with 0
+ * print_times_table - prints times table for numbers from 0-14
  * @n: An input integer value
  * Return: Nothing
  */
