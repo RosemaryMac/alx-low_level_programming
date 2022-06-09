@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 /**
  * main - Prints the numbers from 1-100, but for multiples of three,
@@ -9,18 +8,22 @@
  */
 int main(void)
 {
-int i = 1;
-for (; i < 100; i++)
+int num;
+
+for (num = 1; num <= 100; num++)
 {
-if (i % 3 == 0 && i % 5 == 0)
+if ((num % 3) == 0 && (num % 5) == 0)
 printf("FizzBuzz");
-else if (i % 3 == 0)
+else if ((num % 3) == 0)
 printf("Fizz");
-else if (i % 5 == 0)
+else if ((num % 5) == 0)
 printf("Buzz");
 else
-printf("%d ", i);
+printf("%d", num);
+if (num == 100)
+continue;
+printf(" ");
 }
-printf("Buzz\n");
+printf("\n");
 return (0);
 }
