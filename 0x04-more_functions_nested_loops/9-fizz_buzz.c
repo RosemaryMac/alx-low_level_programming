@@ -9,21 +9,19 @@
 int main(void)
 {
 int num;
-char f[] = "Fizz";
-char b[] = "Buzz";
-char fb[] = "FizzBuzz";
 for (num = 1; num <= 100; num++)
 {
-if (num == 100)
-printf("%s", b);
-else if ((num % 3 == 0) && (num % 5 == 0))
-printf("%s ", fb);
+if ((num % 3 == 0) && (num % 5 == 0))
+printf("FizzBuzz");
 else if (num % 3 == 0)
-printf("%s ", f);
+printf("Fizz");
 else if (num % 5 == 0)
-printf("%s ", b);
+printf("Buzz");
 else
-printf("%d ", num);
+printf("%d", num);
+if (num == 100)
+break;
+printf(" ");
 }
 printf("\n");
 return (0);
