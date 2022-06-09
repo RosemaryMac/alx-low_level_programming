@@ -12,17 +12,17 @@ int i;
 for (i = 1; i <= 100; i++)
 {
 if ((i % 3 == 0) && (i % 5 == 0))
-putchar("FizzBuzz");
+printf("FizzBuzz");
 else if (i % 3 == 0)
-putchar("Fizz");
+printf("Fizz");
 else if (i % 5 == 0)
-putchar("Buzz");
+printf("Buzz");
 else
-putchar("%d", i);
+printf("%d", i);
 if (i == 100)
 break;
-putchar(" ");
+printf(" ");
 }
-putchar("\n");
+printf("\n");
 return (0);
 }
