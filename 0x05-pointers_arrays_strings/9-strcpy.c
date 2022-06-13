@@ -20,5 +20,5 @@ dest++;
 src++;
 }
 *dest = '\0';
-return aux;
+return (aux);
 }
