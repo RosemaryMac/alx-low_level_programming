@@ -4,15 +4,18 @@
  * including the terminating null byte (\0),
  * to the buffer pointed to by dest.
  *
- * @dest: A pointer to destination of string
+ * @dest: A pointer to destination of string/ a buffer to copy the string to
  * @src: A pointer to source string to copy from
  *
- * Return: pointer to dest
+ * Return: A pointer to the destination string @dest.
  */
 char *_strcpy(char *dest, char *src)
 {
-char *aux = dest;
-while (*src)
-*dest++ = *src++;
-return (aux);
+int index = 0;
+while (src[index])
+{
+dest[index] = src[index];
+index++;
+}
+return (dest);
 }
