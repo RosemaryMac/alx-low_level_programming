@@ -12,9 +12,13 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-char *src = dest;
-while (*src)
-*dest++ = *src++;
-printf("%s\n", dest);
-return (0);
+char *aux = dest;
+while (*src && n--)
+{
+*dest = *src;
+dest++;
+src++;
+}
+*dest = '\0';
+return aux;
 }
