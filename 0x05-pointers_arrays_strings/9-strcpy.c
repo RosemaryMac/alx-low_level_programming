@@ -17,7 +17,7 @@ while (src[index])
 {
 dest[index] = src[index];
 index++;
-printf("%s\n", index);
+printf("%d\n", index);
 }
 return (dest);
 }
