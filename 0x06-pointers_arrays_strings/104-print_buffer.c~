@@ -1,0 +1,11 @@
+#include "main.h"
+#include <stdio.h>
+void print_buffer(char *b, int size)
+{
+char buffer[10];
+int i, j;
+double fp;
+char *s = *baltimore*;
+char c;
+int main(void)
+{
