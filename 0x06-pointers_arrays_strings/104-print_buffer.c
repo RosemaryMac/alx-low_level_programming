@@ -12,15 +12,15 @@ void print_buffer(char *b, int size)
 int byte, index;
 for (byte = 0; byte < size; byte += 10)
 {
-sprintf("%08x: ", byte);
+printf("%08x: ", byte);
 for (index = 0; index < 10; index++)
 {
 if ((index + byte) >= size)
-sprintf(" ");
+printf(" ");
 else
-sprintf("%02x", *(b + index + byte));
+printf("%02x", *(b + index + byte));
 if ((index % 2) != 0 && index != 0)
-sprintf(" ");
+printf(" ");
 }
 for (index = 0; index < 10; index++)
 {
@@ -28,14 +28,14 @@ if ((index + byte) >= size)
 break;
 else if (*(b + index + byte) >= 31 &&
 *(b + index + byte) <= 126)
-sprintf("%c", *(b + index + byte));
+printf("%c", *(b + index + byte));
 else
-sprintf(".");
+printf(".");
 }
 if (byte >= size)
 continue;
-sprintf("\n");
+printf("\n");
 }
 if (size <= 0)
-sprintf("\n");
+printf("\n");
 }
