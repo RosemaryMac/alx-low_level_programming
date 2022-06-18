@@ -17,7 +17,7 @@ else
 {
 while (i < size)
 {
-printf("%08x: ", i);
+printf("%8.8x: ", i);
 j = 0;
 while (j < 10)
 {
