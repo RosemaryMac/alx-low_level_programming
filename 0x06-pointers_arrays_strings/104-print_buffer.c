@@ -1,13 +1,13 @@
 #include "main.h"
 #include <stdio.h>
 /**
-*print_line - prints a s bytes of a buffer
+*print_buffer - prints a buffer
 * @c: buffer to print
 * @s: bytes of buffer to print
 * @l: line of buffer to print
 * Return: void
 */
-void print_line(char *c, int s, int l)
+void print_buffer(char *c, int s, int l)
 {
 int j, k;
 for (j = 0; j <= 9; j++)
@@ -41,11 +41,11 @@ for (i = 0; i <= (size - 1) / 10 && size; i++)
 printf("%08x: ", i * 10);
 if (i < size / 10)
 {
-print_line(b, 9, i);
+print_buffer(b, 9, i);
 }
 else
 {
-print_line(b, size % 10 - l, i);
+print_buffer(b, size % 10 - l, i);
 }
 putchar('\n');
 }
