@@ -1,0 +1,1 @@
+Memset,Pointers,Arrays,Strings
