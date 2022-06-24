@@ -15,5 +15,3 @@ printf("%s\n", argv[i]);
 }
 return (0);
 }
-
-© 2022 GitHub, Inc.
