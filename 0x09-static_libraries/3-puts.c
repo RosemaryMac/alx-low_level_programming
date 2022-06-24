@@ -2,12 +2,16 @@
 /**
  * _puts - Write a function that prints a string, followed
  * by a new line, to stdout.
- * @s: an input string
+ * @str: an input string pointer.
  * Return: Nothing
  */
-void _puts(char *s)
+void _puts(char *str)
 {
-  while (*s)
-      _putchar(*s++);
-   _putchar('\n');
+int i = 0;
+while (str[i] != '\0')
+{
+_putchar(str[i]);
+i++;
+}
+_putchar('\n');
 }
