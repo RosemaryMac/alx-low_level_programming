@@ -1,6 +1,6 @@
 #define MAIN_H
 /**
- * Desc: Header file with functions used in the 0x09-static_libraries directory.
+ * Desc: header file with functions used in the 0x09-static_libraries directory.
  */
 int _putchar(char c);
 int _islower(int c);
