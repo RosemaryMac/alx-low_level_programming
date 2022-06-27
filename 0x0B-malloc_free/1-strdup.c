@@ -9,8 +9,10 @@
  */
 char *_strdup(char *str)
 {
-char *duplicate;
-int i, len = 0;
+char *dup;
+unsigned int i, len;
+i = 0;
+len = 0;
 if (str == NULL)
 return (NULL);
 while (str[len])
