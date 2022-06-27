@@ -17,10 +17,10 @@ if (str == NULL)
 return (NULL);
 while (str[len])
 len++;
-duplicate = malloc(sizeof(char) * (len + 1));
-if (duplicate == NULL)
+dup = malloc(sizeof(char) * (len + 1));
+if (dup == NULL)
 return (NULL);
-while ((duplicate[i] = str[i]) != '\0')
+while ((dup[i] = str[i]) != '\0')
 i++;
-return (duplicate);
+return (dup);
 }
