@@ -15,15 +15,10 @@ Write a program that performs simple operations.
 - You can assume num1 and num2 are integers, so use the atoi function to convert them from the string input to int
 
 > operator is one of the following:
-
 > > +: addition
-
 > > -: subtraction
-
 > > *: multiplication
-
 > > /: division
-
 > > %: modulo
 
 - The program prints the result of the operation, followed by a new line
@@ -38,10 +33,10 @@ Write a program that performs simple operations.
 
 This task requires that you create four different files.
 
-### 3-calc.h
+#### 3-calc.h
 This file should contain all the function prototypes and data structures used by the program. You can use this structure:
 
-### 3-op_functions.c
+#### 3-op_functions.c
 This file should contain the 5 following functions (not more):
 
 - op_add: returns the sum of a and b. Prototype: int op_add(int a, int b);
@@ -54,7 +49,7 @@ This file should contain the 5 following functions (not more):
 
 - op_mod: returns the remainder of the division of a by b. Prototype: int op_mod(int a, int b);
 
-### 3-get_op_func.c
+#### 3-get_op_func.c
 This file should contain the function that selects the correct function to perform the operation asked by the user. You’re not allowed to declare any other function.
 
 - Prototype: int (*get_op_func(char *s))(int, int);
@@ -79,7 +74,7 @@ This file should contain the function that selects the correct function to perfo
 
 - You are only allowed to declare these two variables in this function
 
-### 3-main.c
+#### 3-main.c
 This file should contain your main function only.
 
 - You are not allowed to code any other function than main in this file
