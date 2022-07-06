@@ -14,12 +14,14 @@ Write a program that performs simple operations.
 
 - You can assume num1 and num2 are integers, so use the atoi function to convert them from the string input to int
 
-> operator is one of the following:
-> > +: addition
-> > -: subtraction
-> > *: multiplication
-> > /: division
-> > %: modulo
+```
+ operator is one of the following:
+ 	 +: addition
+	 -: subtraction
+	 *: multiplication
+	 /: division
+ 	 %: modulo
+``
 
 - The program prints the result of the operation, followed by a new line
 
@@ -89,6 +91,20 @@ This file should contain your main function only.
 
 ### 4. Most hackers are young because young people tend to be adaptable. As long as you remain adaptable, you can always be a good hacker
 Write a program that prints the opcodes of its own main function.
+
+~~~~
+Usage: ./main number_of_bytes
+
+    Output format:
+
+        the opcodes should be printed in hexadecimal, lowercase
+
+        each opcode is two char long
+
+        listing ends with a new line
+
+        see example
+~~~~
 
 - You are allowed to use printf and atoi
 
