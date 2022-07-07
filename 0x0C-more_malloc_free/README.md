@@ -28,7 +28,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 ## 0. Trust no one
 Write a function that allocates memory using malloc.
 
-- Prototype: **void *malloc_checked(unsigned int b);**
+- Prototype: ** void *malloc_checked(unsigned int b); **
 
 - Returns a pointer to the allocated memory
 
@@ -36,7 +36,7 @@ Write a function that allocates memory using malloc.
 ## 1. string_nconcat
 Write a function that concatenates two strings.
 
-- Prototype: **char *string_nconcat(char *s1, char *s2, unsigned int n);**
+- Prototype: ** char *string_nconcat(char *s1, char *s2, unsigned int n); **
 
 - The returned pointer shall point to a newly allocated space in memory, which contains *s1*, followed by the first n bytes of *s2*, and null terminated
 
@@ -48,7 +48,7 @@ Write a function that concatenates two strings.
 ## 2.-calloc
 Write a function that allocates memory for an array, using *malloc*.
 
-- Prototype: **void *_calloc(unsigned int nmemb, unsigned int size);**
+- Prototype: ** void *_calloc(unsigned int nmemb, unsigned int size); **
 
 - The _calloc function allocates memory for an array of nmemb elements of size bytes each and returns a pointer to the allocated memory.
 
@@ -62,7 +62,7 @@ FYI: The standard library provides a different function: *calloc*. Run man callo
 ## 3. array_range
 Write a function that creates an array of integers.
 
-- Prototype: **int *array_range(int min, int max);**
+- Prototype: ** int *array_range(int min, int max); **
 
 - The array created should contain all the values from min (included) to max (included), ordered from min to max
 
@@ -74,7 +74,7 @@ Write a function that creates an array of integers.
 ## 4. realloc
 Write a function that reallocates a memory block using malloc and free
 
-- Prototype: **void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);**
+- Prototype: ** void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size); **
 
 - where ptr is a pointer to the memory previously allocated with a call to *malloc: malloc(old_size)*
 
