@@ -2,7 +2,7 @@
 #define VAR_FUNC_H
 
 /**
- * Desc - Header file with prototype functions used in the 0x10-variadic_functions directory.
+ * Header file with prototype functions for 0x10-v directory.
  */
 #include <stdio.h>
 #include <stdarg.h>
