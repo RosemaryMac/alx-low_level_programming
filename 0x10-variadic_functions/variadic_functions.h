@@ -1,9 +1,6 @@
-#ifndef VAR_FUNC_H
-#define VAR_FUNC_H
+#ifndef VARIADIC_FUNCTION_H
+#define VARIADIC_FUNCTION_H
 
-/**
- * Header file with prototype functions for 0x10-v directory.
- */
 #include <stdio.h>
 #include <stdarg.h>
 
