@@ -1,4 +1,4 @@
-#0x0D. C-Preprocessor
+# 0x0D. C-Preprocessor
 ## Read or Watch:
 - *Understanding C program Compilation Process*
 
@@ -26,16 +26,16 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 - How to include guard your header files
 
 ## Requirements
-### 0 - Object-like Macro
+## 0 - Object-like Macro
 Create a header file that defines a macro named SIZE as an abbreviation for the token 1024.
-### Pi
+## 1 - Pi
 Create a header file that defines a macro named PI as an abbreviation for the token *3.14159265359*.
-### File name
+## 2 - File name
 Write a program that prints the name of the file it was compiled from, followed by a new line.
 
 You are allowed to use the standard library
-### Function-like Macro
+## 3 - Function-like Macro
 Write a function-like macro *ABS(x)* that computes the absolute value of a number *x*.
-### Sum
+## 4 - Sum
 Write a function-like macro *SUM(x, y)* that computes the sum of the numbers *x* and *y*.
 
