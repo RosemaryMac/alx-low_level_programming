@@ -48,7 +48,7 @@ Write a function that concatenates two strings.
 ## 2.-calloc
 Write a function that allocates memory for an array, using *malloc*.
 
-- Prototype: __void *_calloc(unsigned int nmemb, unsigned int size);__
+- Prototype:__void *_calloc(unsigned int nmemb, unsigned int size); __
 
 - The _calloc function allocates memory for an array of nmemb elements of size bytes each and returns a pointer to the allocated memory.
 
@@ -74,7 +74,7 @@ Write a function that creates an array of integers.
 ## 4. realloc
 Write a function that reallocates a memory block using malloc and free
 
-- Prototype: __void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);__
+- Prototype:__void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);__
 
 - where ptr is a pointer to the memory previously allocated with a call to *malloc: malloc(old_size)*
 
