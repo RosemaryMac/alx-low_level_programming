@@ -30,7 +30,7 @@ man or help:
 
 - **putchar**
 
-##Learning Objectives
+## Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
 - **Why C programming is awesome**
@@ -59,45 +59,77 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 - How does the **main** function influence the return value of the program
 ## Requirements
-- Allowed editors: vi, vim, emacs
+- Allowed editors: **vi**,**vim**,**emacs**
 
-All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+- All your files will be compiled on **Ubuntu 20.04 LTS** using *gcc*, using the options *-Wall -Werror -Wextra -pedantic -std=gnu89*
 
-All your files should end with a new line
+- All your files should end with a new line
 
-A README.md file at the root of the repo, containing a description of the repository
+- A **README.md** file at the root of the repo, containing a description of the repository
 
-A README.md file, at the root of the folder of this project, containing a description of the project
+- A *README.md file*, at the root of the folder of this project, containing a description of the project
 
-There should be no errors and no warnings during compilation
+- There should be no errors and no warnings during compilation
 
-You are not allowed to use system
+- You are not allowed to use system
 
-Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+- Your code should use the *Betty style*. It will be checked using *betty-style.pl* and *betty-doc.pl*
 
-Shell Scripts
+## More Info
+### Betty linter
 
-Allowed editors: vi, vim, emacs
+To run the Betty linter just with command ``betty <filename>``:
 
-All your scripts will be tested on Ubuntu 20.04 LTS
+- Go to the *Betty* repository
 
-All your scripts should be exactly two lines long ($ wc -l file should print 2)
+- Clone the *repo* to your local machine
 
-All your files should end with a new line
+- *cd* into the Betty directory
 
-The first line of all your files should be exactly #!/bin/bash
+- Install the linter with ``sudo ./install.sh``
 
-More Info
+- emacs or vi a new file called betty, and copy the script below:
+~~~~
+`#!/bin/bash
 
-Betty linter
+`# Simply a wrapper script to keep you from having to use betty-style
 
-To run the Betty linter just with command betty <filename>:
+`# and betty-doc separately on every item.
 
-Go to the Betty repository
+`# Originally by Tim Britton (@wintermanc3r), multiargument added by
 
-Clone the repo to your local machine
+`# Larry Madeo (@hillmonkey)
 
-cd into the Betty directory
 
-Install the linter with sudo ./install.sh
+BIN_PATH="/usr/local/bin"
+
+BETTY_STYLE="betty-style"
+
+BETTY_DOC="betty-doc"
+
+
+if [ "$#" = "0" ]; then
+
+    echo "No arguments passed."
+
+    exit 1
+
+fi
+
+
+for argument in "$@" ; do
+
+    echo -e "\n========== $argument =========="
+
+    ${BIN_PATH}/${BETTY_STYLE} "$argument"
+
+    ${BIN_PATH}/${BETTY_DOC} "$argument"
+
+done
+~~~~
+- Once saved, exit file and change permissions to apply to all users with ``chmod a+x betty``
+
+- Move the *betty* file into */bin/* directory or somewhere else in your **$PATH** with ``sudo mv betty /bin/``
+
+You can now type ``**betty** **<filename>**`` to run the Betty linter!
 
