@@ -69,7 +69,7 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 Write a function that checks the endianness.
 - Prototype: **int get_endianness(void);**
 - Returns: 0 if big endian, 1 if little endian
-## [Crackme3](101-password)
+## [7.Crackme3](101-password)
 Find the password for this [*program.*](https://github.com/holbertonschool/0x13.c)
-- Save the password in the file 101-password
+- Save the password in the file *101-password*
 - Your file should contain the exact password, no new line, no extra space
