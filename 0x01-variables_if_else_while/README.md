@@ -19,11 +19,11 @@
 
 - [*while loop in C*](https://www.tutorialspoint.com/cprogramming/c_while_loop.htm)
 
-- While loop*](https://www.youtube.com/watch?v=Ju1LYO9pkaI)
+-[*While loop*](https://www.youtube.com/watch?v=Ju1LYO9pkaI)
 
 **man or help:**
 
-- **ascii* (You do not need to learn about ``scanf``, ``getc``, ``getchar``, ``EOF``, ``EXIT_SUCCESS``, ``time``, ``rand``, ``srand``,``RAND_MAX``, ``for loops``, ``do...while loops``, functions.)
+- *ascii* (You do not need to learn about ``scanf``, ``getc``, ``getchar``, ``EOF``, ``EXIT_SUCCESS``, ``time``, ``rand``, ``srand``,``RAND_MAX``, ``for loops``, ``do...while loops``, functions.)
 
 ## Learning Objectives
 At the end of this project, you are expected to be able to [*explain to anyone*](3~https://fs.blog/feynman-learning-technique/?fbclid=IwAR2K5_BGPVo0QjJXkOIIqNsqcXK4lTskPWJvA0asKQIGtCPWaQBdKmj1Ztg), **without the help of Google**:
@@ -70,3 +70,49 @@ At the end of this project, you are expected to be able to [*explain to anyone*]
 - You are not allowed to use **system**
 
 - Your code should use the *Betty* style. It will be checked using [*betty-style.pl*](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [*betty-doc.pl*](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
+## Tasks
+##[0. Positive anything is better than negative nothing](0-positive_or_negative.c)
+This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print whether the number stored in the variable n is positive or negative.
+
+- You can find the source code here
+
+- The variable n will store a different value every time you will run this program
+
+- You don’t have to understand what rand, srand, RAND_MAX do. Please do not touch this code
+
+- The output of the program should be:
+
+   * The number, followed by
+
+       - if the number is greater than 0: is positive
+
+       - if the number is 0: is zero
+
+       - if the number is less than 0: is negative
+
+   * followed by a new line
+## [1. The last digit](1-last_digit.c)
+This program will assign a random number to the variable n each time it is executed. Complete the source code in order to print the last digit of the number stored in the variable n.
+
+- You can find the source code here
+
+- The variable n will store a different value every time you run this program
+
+- You don’t have to understand what `rand`, `srand`, and `RAND_MAX` do. Please do not touch this code
+
+- The output of the program should be:
+
+    * The string `Last digit of`, followed by
+
+    * n, followed by
+
+    * the string is, followed by
+
+      - if the last digit of n is greater than 5: the string and is greater than 5
+
+      - if the last digit of n is 0: the string and is 0
+
+      - if the last digit of n is less than 6 and not 0: the string and is less than 6 and not 0
+
+    * followed by a new line
+
