@@ -2,23 +2,23 @@
 ## RESOURCES
 - **Everything you need to know to start with C.pdf**(*You do not have to learn everything in there yet, but make sure you read it entirely first*)
 
-- **Dennis Ritchie**
+- [**Dennis Ritchie**](https://en.wikipedia.org/wiki/Dennis_Ritchie)
 
-- **“C” Programming Language: Brian Kernighan**
+- [**“C” Programming Language: Brian Kernighan**](https://www.youtube.com/watch?v=de2Hsvxaf8M)
 
-- **Why C Programming Is Awesome**
+- [**Why C Programming Is Awesome**](https://www.youtube.com/watch?v=smGalmxPVYc)
 
-- **Learning to program in C part 1**
+- [**Learning to program in C part 1**](https://www.youtube.com/watch?v=rk2fK2IIiiQ)
 
-- **Learning to program in C part 2**
+- [**Learning to program in C part 2**](https://www.youtube.com/watch?v=FwpP_MsZWnU)
 
-- **Understanding C program Compilation Process**
+- [**Understanding C program Compilation Process**](https://www.youtube.com/watch?v=VDslRumKvRA)
 
-- **Betty Coding Style**
+- [**Betty Coding Style**](https://github.com/holbertonschool/Betty/wiki)
 
-- **Hash-bang under the hood** (*Look at only after you finish consuming the other resources*)
+- [**Hash-bang under the hood**](https://twitter.com/unix_byte/status/1024147947393495040?s=21)(*Look at only after you finish consuming the other resources*)
 
-- **Linus Torvalds on C vs. C++** (*Look at only after you finish consuming the other resources*)
+- [**Linus Torvalds on C vs. C++**](http://harmful.cat-v.org/software/c++/linus)(*Look at only after you finish consuming the other resources*)
 
 man or help:
 
@@ -31,7 +31,7 @@ man or help:
 - **putchar**
 
 ## Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+At the end of this project, you are expected to be able to [*explain to anyone*](https://fs.blog/feynman-learning-technique/?fbclid=IwAR2K5_BGPVo0QjJXkOIIqNsqcXK4lTskPWJvA0asKQIGtCPWaQBdKmj1Ztg),**without the help of Google**:
 
 - **Why C programming is awesome**
 
@@ -73,16 +73,16 @@ At the end of this project, you are expected to be able to explain to anyone, wi
 
 - You are not allowed to use system
 
-- Your code should use the *Betty style*. It will be checked using *betty-style.pl* and *betty-doc.pl*
+- Your code should use the *Betty style*. It will be checked using [*betty-style.pl*](https://github.com/holbertonschool/Betty/blob/master/betty-style.pl) and [*betty-doc.pl*](https://github.com/holbertonschool/Betty/blob/master/betty-doc.pl)
 
 ## More Info
 ### Betty linter
 
 To run the Betty linter just with command ``betty <filename>``:
 
-- Go to the *Betty* repository
+- Go to the [*Betty*](https://github.com/holbertonschool/Betty) repository
 
-- Clone the *repo* to your local machine
+- Clone the [*repo*](https://github.com/holbertonschool/Betty) to your local machine
 
 - *cd* into the Betty directory
 
